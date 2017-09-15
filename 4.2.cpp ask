@@ -1,0 +1,31 @@
+#include <iostream>
+    using namespace std;
+     
+    int main() {
+    	float r,d,c,a;
+    	float diameter(float );
+    	float circumference(float );
+    	float area(float);
+     
+    	cin>>r;
+    	d=2*r;
+    	cout<<"diameter="<<d;
+    	c=2*3.14*r;
+    	cout<<"circumference="<<c;
+    	a=3.14*r*r;
+    	cout<<"area="<<a;
+     
+     
+     
+    }
+    	float diameter(float r);
+    	float circumference(float r);
+    	float area(float r)
+    	{
+    		float d,c,a;
+    			d=2*r;	
+    			c=2*3.14*r;	
+    			a=3,14*r*r;
+    			return(d,c,a);
+    	
+    }
